@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="./asstets/css/syles.css">
-  <link rel="stylesheet" href="test.css">
+  <link rel="stylesheet" href="asstets/css/hotro.css">
   <title>Nha Sach</title>
 </head>
 
@@ -55,115 +55,276 @@
     </div>
   </header>
   <!--END HEADER-->
-  <!--MENU-->
-  <div class="menu">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="inner-main">
-            <div class="menu1">
-              <a href="#">
-                <img src="./asstets/images/menu (3).png">
-                <p class="menu1-1">TẤT CẢ DANH MỤC</p>
-              </a>
-            </div>
-            <div class="menu2">
-              <a href="#" class="menu2-1" id="menu-2-1"> HỖ TRỢ KHÁCH HÀNG </a>
-              <div class="menu-2-2" onmouseover="moveOver('btn1')" onmouseout="moveOut('btn1')">
-                <a href="#">HƯỚNG DẪN ĐẶT HÀNG</a>
-                <a href="#">PHƯƠNG THỨC THANH TOÁN</a>
-                <a href="#">PHƯƠNG THỨC VẬN CHUYỂN</a>
-                <a href="#">CHÍNH SÁCH ĐỔI TRẢ</a>
-                <a href="#">CHÍNH SÁCH BẢO MẬT</a>
-                <a href="#">ĐIỀU KIỆN ĐỔI TRẢ</a>
+  <!--Menu-->
+  <div class="menu-container">
+    <div class="menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="inner-main">
+              <div class="menu1">
+                <a href="#">
+                  <img src="./asstets/images/menu (3).png" alt="Menu">
+                  <p class="menu1-1">TẤT CẢ DANH MỤC</p>
+                </a>
+                <div class="menu-dropdown">
+                  <ul>
+                      <li class="drop-menu1">
+                          <a href="#" class="drop-menu1-1">Sách Kinh Tế-Kỹ Năng </a>
+                          <div class="drop-menu-1-2">
+                              <h6>Sách Kinh Tế -Kỹ Năng </h6>
+                              <a href="#">Kinh Tế-Chính Trị</a>
+                              <a href="#">Nhân Vật-Bài Học Kinh Doanh</a>
+                              <a href="#">Khởi Nghiệp</a>
+                              <a href="#">Kinh Tế Học</a>
+                              <a href="#">Quản Trị Nhân Sự</a>
+                              <a href="#">Tài Chính-Kế Toán</a>
+                          </div>
+                      </li>
+                      <li class="drop-menu2">
+                          <a href="#" class="drop-menu2-1">Sách Nghệ Thuật Sống-Tâm Lý </a>
+                          <div class="drop-menu-2-2">
+                              <h6>Sách Nghệ Thuật Sống-Tâm Lý</h6>
+                              <a href="#">Nghệ Thuật Sống</a>
+                              <a href="#">Tư Duy</a>
+                              <a href="#">Tâm Lý</a>
+                              <a href="#">Hướng Nghiệp</a>
+                          </div>
+                      </li>
+                      <li class="drop-menu3">
+                        <a href="#" class="drop-menu3-1">Sách Văn Học Việt Nam</a>
+                        <div class="drop-menu-3-2" onmouseover="moveOver('btn6')" onmouseout="moveOut('btn6')">
+                          <h6>Sách Văn Học Việt Nam</h6>
+                          <a href="#">Truyện Ngắn</a>
+                          <a href="#">Tiểu Thuyết</a>
+                          <a href="#">Tiểu Thuyết Lịch Sử</a>
+                          <a href="#">Tiểu sử-Hồi ký</a>
+                          <a href="#">TPhóng sự -Ký sự -Du ký-Túy sự</a>
+                          <a href="#">Phê bình văn học</a>
+                          <a href="#">Thơ</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu4">
+                        <a href="#" class="drop-menu4-1">Sách Văn Học Nước Ngoài</a>
+                        <div class="drop-menu-4-2" >
+                          <h6>Sách Văn Học Nước Ngoài</h6>
+                          <a href="#">Văn học hiện đại</a>
+                          <a href="#">Tiểu thuyết nước ngoài</a>
+                          <a href="#">Giả tưởng-Kinh dị</a>
+                          <a href="#">Truyện trinh thám</a>
+                          <a href="#">Truyện kiếm hiệp </a>
+                          <a href="#">Thần thoại-cổ tích</a>
+                          <a href="#">Tiểu sử-Hồi ký</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu5">
+                        <a href="#" class="drop-menu5-1">Sách Thiếu Nhi</a>
+                        <div class="drop-menu-5-2" >
+                          <h6>Sách Thiếu Nhi</h6>
+                          <a href="#">Mẫu Giáo</a>
+                          <a href="#">Nhi Đồng</a>
+                          <a href="#">Tâm Lý</a>
+                          <a href="#">Thiếu Niên</a>
+                          <a href="#">Văn Học Thiếu Nhi</a>
+                          <a href="#">Kiến Thức-Bách Khoa</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu6">
+                        <a href="#" class="drop-menu6-1">Sách Giáo Dục-Gia Đình</a>
+                        <div class="drop-menu-6-2" >
+                          <h6>Sách Giáo Dục-Gia Đình</h6>
+                          <a href="#">Giáo Dục</a>
+                          <a href="#">Giới Tính</a>
+                          <a href="#">Thai Giáo</a>
+                          <a href="#">Làm Cha Mẹ</a>
+                          <a href="#">Dinh Dưỡng-Chăm Sóc Trẻ</a>
+                          <a href="#">Ẩmm Thực</a>
+                          <a href="#">Tham Khảo</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu7">
+                        <a href="#" class="drop-menu7-1">Sách Lịch Sử</a>
+                        <div class="drop-menu-7-2" >
+                          <h6>Sách Lịch Sử</h6>
+                          <a href="#">Lịch Sử Việt Nam</a>
+                          <a href="#">Lịch Sử Thế Giới</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu8">
+                        <a href="#" class="drop-menu8-1">Sách Văn Hóa -Nghệ Thuật</a>
+                        <div class="drop-menu-8-2" >
+                          <h6>Sách Văn Hóa -Nghệ Thuật</h6>
+                          <a href="#">Văn Hóa</a>
+                          <a href="#">Nghệ Thuật</a>
+                          <a href="#">Phong Tục-Tập Quán</a>
+                          <a href="#">Kiến Trúc</a>
+                          <a href="#">Du Lịch</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu9">
+                        <a href="#" class="drop-menu9-1">Sách Khoa Học-Triết Học</a>
+                        <div class="drop-menu-9-2" >
+                          <h6>Sách Khoa Học-Triết Học</h6>
+                          <a href="#">Triết Học Phương Tây</a>
+                          <a href="#">Minh Triết Phương Đông</a>
+                          <a href="#">Khoa Học-Công Nghệ</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu10">
+                        <a href="#" class="drop-menu10-1">Sách Tâm Linh-Tôn Giáo</a>
+                        <div class="drop-menu-10-2" >
+                          <h6>Sách Tâm Linh-Tôn Giáo</h6>
+                          <a href="#">Tâm Linh</a>
+                          <a href="#">Tôn Giáo</a>
+                        </div>
+                      </li>
+                      <li class="drop-menu11">
+                        <a href="#" class="drop-menu11-1">Sách Y Học -Thực Dưỡng</a>
+                        <div class="drop-menu-11-2" >
+                          <h6>Sách Y Học -Thực Dưỡng</h6>
+                          <a href="#">Chăm Sóc Sức Khỏe</a>
+                          <a href="#">Thực Dưỡng</a>
+                          <a href="#">Y Học</a>
+                          <a href="#">Đông Y-Cổ Truyền</a>
+                          <a href="#">Thiền -Yoga</a>
+                        </div>
+                      </li>
+                      <!-- Thêm các phần tử menu còn lại tương tự như trên -->
+                  </ul>
               </div>
-            </div>
-            <div class="menu3">
-              <a href="#" class="menu3-1">TIN SÁCH
-              </a>
-            </div>
-            <div class="menu4">
-              <a href="#" class="menu4-1">TỦ SÁCH
-              </a>
-            </div>
-            <div class="menu5">
-              <a href="#" class="menu5-1">KIẾN THỨC
-              </a>
-            </div>
-            <div class="menu6">
-              <a href="#" class="menu6-1" id="menu-6-1"> SẢN PHẨM KHÁC </a>
-              <div class="menu-6-2" onmouseover="moveOver('btn2')" onmouseout="moveOut('btn2')">
-                <a href="#">BÚT CHÌ MÀU-BÚT LÔNG MÀU-SÁP MÀU</a>
-                <a href="#">LƯU NIỆM-QUÀ TẶNG</a>
               </div>
-            </div>
-            <div class="menu7">
-              <a href="#" class="menu7-1" id="menu-7-1"> VỀ NETABOOKS </a>
-              <div class="menu-7-2" onmouseover="moveOver('btn3')" onmouseout="moveOut('btn3')">
-                <a href="#">GIỚI THIỆU</a>
-                <a href="#">TUYỂN DỤNG</a>
+              <div class="menu2">
+                <a href="#" class="menu2-1" id="menu-2-1">HỖ TRỢ KHÁCH HÀNG</a>
+                <div class="menu-2-2">
+                  <a href="#">HƯỚNG DẪN ĐẶT HÀNG</a>
+                  <a href="#">PHƯƠNG THỨC THANH TOÁN</a>
+                  <a href="#">PHƯƠNG THỨC VẬN CHUYỂN</a>
+                  <a href="#">CHÍNH SÁCH ĐỔI TRẢ</a>
+                  <a href="#">CHÍNH SÁCH BẢO MẬT</a>
+                  <a href="#">ĐIỀU KIỆN ĐỔI TRẢ</a>
+                </div>
               </div>
-            </div>
-            <div class=" menu8">
-              <a href="#">
-                <span class="menu8-2">SÁCH MỚI TUYỂN CHỌN </span>
-              </a>
+              <div class="menu3">
+                <a href="#" class="menu3-1">TIN SÁCH</a>
+              </div>
+              <div class="menu4">
+                <a href="#" class="menu4-1">TỦ SÁCH</a>
+              </div>
+              <div class="menu5">
+                <a href="#" class="menu5-1">KIẾN THỨC</a>
+              </div>
+              <div class="menu6">
+                <a href="#" class="menu6-1" id="menu-6-1">SẢN PHẨM KHÁC</a>
+                <div class="menu-6-2">
+                  <a href="#">BÚT CHÌ MÀU-BÚT LÔNG MÀU-SÁP MÀU</a>
+                  <a href="#">LƯU NIỆM-QUÀ TẶNG</a>
+                </div>
+              </div>
+              <div class="menu7">
+                <a href="#" class="menu7-1" id="menu-7-1">VỀ NETABOOKS</a>
+                <div class="menu-7-2">
+                  <a href="#">GIỚI THIỆU</a>
+                  <a href="#">TUYỂN DỤNG</a>
+                </div>
+              </div>
+              <div class="menu8">
+                <a href="#">
+                  <span class="menu8-2">SÁCH MỚI TUYỂN CHỌN</span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <!-- Nav -->
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Hỗ trợ khách hàng</li>
+      </ol>
+    </nav>
+    <!--End Nav-->
   </div>
-  <!--end Menu-->
-  <!--Nav-->
-  <nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Trang chủ</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Hỗ trợ khách hàng</li>
-    </ol>
-  </nav>
-  <!--End Nav-->
+  <!--end menu-->
   <!--Section-->
   <div class="sub-menu">
     <div class="sub-menu-container">
-      <div class="item large">
-          <img src="https://via.placeholder.com/500x300" alt="Hướng Dẫn Đặt Hàng tại Netabooks.vn">
-          <div class="item-title">Hướng Dẫn Đặt Hàng tại Netabooks.vn</div>
-          <div class="item-date">25/01/2019</div>
-      </div>
-      <div class="item large">
-          <img src="https://via.placeholder.com/500x300" alt="Phí Vận Chuyển & Thời Gian Giao Hàng">
-          <div class="item-title">Phí Vận Chuyển & Thời Gian Giao Hàng</div>
-          <div class="item-date">25/01/2019</div>
-      </div>
-      <div class="item small">
-          <img src="https://via.placeholder.com/200x150" alt="Phương Thức Thanh Toán Tại NetaBooks.vn">
-          <div class="item-title">Phương Thức Thanh Toán Tại NetaBooks.vn</div>
-          <div class="item-date">25/01/2019</div>
-      </div>
-      <div class="item small">
-          <img src="https://via.placeholder.com/200x150" alt="Đổi / Trả Hàng">
-          <div class="item-title">Đổi / Trả Hàng</div>
-          <div class="item-date">25/01/2019</div>
-      </div>
-      <div class="item small">
-          <img src="https://via.placeholder.com/200x150" alt="Những Câu Hỏi Thường Gặp">
-          <div class="item-title">Những Câu Hỏi Thường Gặp</div>
-          <div class="item-date">25/01/2019</div>
-      </div>
-      <div class="item small">
-        <img src="https://via.placeholder.com/200x150" alt="Những Câu Hỏi Thường Gặp">
-        <div class="item-title">Hướng dẫn theo dõi đơn hàng trên trang đối tác giao hàng</div>
-        <div class="item-date">25/01/2019</div>
+        <div class="item large">
+            <div class="image-container">
+                <img src="asstets/images/huongdandathang.jpg" alt="Hướng Dẫn Đặt Hàng tại Netabooks.vn">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title"><a href="">Hướng Dẫn Đặt Hàng tại Netabooks.vn</a></div>
+            <div class="item-date">25/01/2019</div>
+        </div>
+        <div class="item large">
+            <div class="image-container">
+                <img src="asstets/images/vanchuyen.jpg" alt="Phí Vận Chuyển & Thời Gian Giao Hàng">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title"><a href="">Phí Vận Chuyển & Thời Gian Giao Hàng</a></div>
+            <div class="item-date">25/01/2019</div>
+        </div>
+        <div class="item small">
+            <div class="image-container">
+                <img src="asstets/images/thanhtoan.jpg" alt="Phương Thức Thanh Toán Tại NetaBooks.vn">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title-1"><a href="">Phương Thức Thanh Toán Tại NetaBooks.vn</a></div>
+        </div>
+        <div class="item small">
+            <div class="image-container">
+                <img src="asstets/images/doitra.jpg" alt="Đổi / Trả Hàng">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title-1"><a href="">Đổi / Trả Hàng</a></div>
+            
+        </div>
+        <div class="item small">
+            <div class="image-container">
+                <img src="asstets/images/cauhoithuonggap.jpg" alt="Những Câu Hỏi Thường Gặp">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title-1"><a href="">Những Câu Hỏi Thường Gặp</a></div>
+           
+        </div>
+        <div class="item small">
+            <div class="image-container">
+                <img src="asstets/images/theodoi.png" alt="Hướng dẫn theo dõi đơn hàng trên trang đối tác giao hàng">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title-1"><a href="">Hướng dẫn theo dõi đơn hàng trên trang đối tác giao hàng</a></div>
+           
+        </div>
+        <div class="item large">
+            <div class="image-container">
+                <img src="asstets/images/baosach.jpg" alt="Bao Sách Bằng Bìa Plastic">
+                <div class="overlay"></div>
+            </div>
+            <div class="item-title"><a href="">Bao Sách Bằng Bìa Plastic</a></div>
+            <div class="item-date">18/04/2021</div>
+            
+        </div>
     </div>
-    <div class="item large">
-      <img src="https://via.placeholder.com/1200x400" alt="Bao Sách Bằng Bìa Plastic">
-      <div class="large-item-title">Bao Sách Bằng Bìa Plastic</div>
-      <div class="large-item-date">18/04/2021</div>
-      <div class="large-item-description">Xem thêm</div>
+    <div class="large-item">
+      <div class="large-item-title"><a href="">Dịch vụ giao sách đi nước ngoài</a></div>
+      <div class="large-item-date">10/05/2021</div>
+      <div class="large-item-description">Dịch vụ giao sách đi nước ngoài, hỗ trợ các đơn đặt hàng của Quý độc giả ở xa hoặc ở nước ngoài. NetaBooks đảm bảo sách đến tay khách hàng nhanh chóng, an toàn.<a href=""> Xem thêm<a></a></div>
   </div>
+  <div class="large-item">
+      <div class="large-item-title"><a href="">Chính sách bảo mật</a></div>
+      <div class="large-item-date">10/05/2021</div>
+      <div class="large-item-description">NetaBooks tôn trọng quyền riêng tư của khách hàng và cam kết bảo mật thông tin cá nhân của Quý khách. <a href="">Xem thêm</a></div>
   </div>
+  <div class="large-item">
+      <div class="large-item-title"><a href="">Điều khoản sử dụng website NetaBooks.vn</a></div>
+      <div class="large-item-date">10/05/2021</div>
+      <div class="large-item-description">Quý khách hàng vui lòng đọc kỹ các điều khoản trước khi sử dụng website. <a href="">Xem thêm</a></div>
+  </div>
+    </div>
 </div>
+
   <!--End section-->
   <!--Footer-->
   <footer>
